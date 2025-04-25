@@ -49,9 +49,9 @@ button{
     input[type="text"] {
         color: blue; 
         font-weight: bold; 
-        font-size: 2em; 
-        width: 90%;
-        height: auto; 
+        font-size: 4em; 
+        width: 100%;
+        height: 100%; 
     }
 
     input[type="button"] {
