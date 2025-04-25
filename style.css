@@ -3,13 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.title{
-    margin-bottom:10px;
-    text-align:center;
-    width:210px;
-    color:blue;
-    border: solid black 2px;
-}
+
 input[type="text"]{
     background-color:white;
     color: blue;
@@ -49,4 +43,32 @@ button{
     border: solid black 2px;
     width: 100%;
     font-size: 16vmin;
+}
+
+@media (max-width: 768px) {
+    input[type="text"] {
+        color: blue; 
+        font-weight: bold; 
+        font-size: 2em; 
+        width: 90%;
+        height: auto; 
+    }
+
+    input[type="button"] {
+        width: 6rem; 
+        height: 6rem; 
+        font-size: 2.5em; 
+    }
+
+    #table {
+        margin-top: 50px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 90%;
+        height: auto; 
+    }
+
+    button {
+        font-size: 12vmin;
+    }
 }
